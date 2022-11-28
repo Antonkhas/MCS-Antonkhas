@@ -1,0 +1,29 @@
+.nameheading {
+    color: antiquewhite;
+    background-color: black;
+    padding: 20px;
+    display: block;
+    width: 900px;
+    margin: 20px auto;
+
+}
+
+.page {
+    background-color: antiquewhite;
+    width: 940px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.reference:link {
+    color: #4450c9;
+}
+
+.reference:visited {
+    color: black;
+}
+
+.reference:hover {
+    color: #c94444;
+}
