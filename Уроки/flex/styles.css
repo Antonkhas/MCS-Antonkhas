@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    padding: 20px 0;
+    color: #fff;
+    background-color: #0b24fb;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #fff;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f1eeee;
+    color: #000000;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+  }
+
+  .first-item {
+    order: 1;
+  }
+  
+  .last-item {
+    order: -1;
+  }
+
+  .photo-grid-item {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #fff;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-item {
+    height: 200px;
+    flex: 1;
+    background-color: #0b24fb;
+    border: 1px solid #fff;
+  }
+
+.footer-one,
+.footer-three {
+  flex: initial;
+  width: 300px;
+  background-color: #f1eeee;
+}
+
+.footer-three {
+  flex: 2;
+}
+
+
+
+/* 
+display: flex; позволяет создать флекс-контейнер;
+
+justify-content: определяет горизонтальное выравнивание элементов;
+
+align-items: определяет вертикальное выравнивание элементов;
+
+flex-direction: трансформирует строки в столбцы;
+
+row-reverse; или column-reverse; меняет порядок элементов;
+
+order: можно использовать для редактирование расположения индивидуальных элементов;
+
+align-self: вертикально выравнивает отдельные элементы;
+
+flex: позволяет создавать боксы, способные растягиваться и сжиматься. */
