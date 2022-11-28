@@ -1,0 +1,43 @@
+h1 {
+    background-color: #f1eeee;
+    padding: 50px;
+    border-bottom: 2px dotted #0b24fb;
+}
+
+p {
+    background-color: bisque;
+    padding: 20px 0 10px 50px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+em, strong {
+    background-color: aqua;
+    display: inline;
+}
+
+div {
+    color: #0b24fb;
+    background-color: #29fd2f;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #0b24fb;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+/* Content (Контент) отвечает за текст, изображения или любые другие медиа
+Padding (Поля) – за расстояние между контентом бокса и его границей
+Border (Граница) – за линию между отступом и полем бокса
+Margin (Отступы) – за расстояние между боксами */
