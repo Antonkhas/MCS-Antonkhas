@@ -11,8 +11,8 @@
 }
 
 .myname {
-    height: 80px;
-    padding: 10px 20px 20px 20px;
+
+    padding: 0 20px 30px 20px;
     font-weight: bold;
     font-size: xx-large;  
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 .description {
-    height: 400px;
+    height: 370px;
     background-color: rgb(232, 232, 232);
 
 }
@@ -62,3 +62,30 @@
     display: flex;
     justify-content: flex-start; 
 }
+
+.line-bottom {
+    padding: 20px;
+    font-weight: bold;
+    font-size: xx-large;  
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a:link {
+    color: #ca4c4c;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: slategray;
+  }
+
+  a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: slategray;
+  }
