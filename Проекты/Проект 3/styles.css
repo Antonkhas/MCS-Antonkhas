@@ -8,8 +8,6 @@
     padding: 30px 0;
     color: slategray;
     background-color: blanchedalmond;
-    display: flex;
-    justify-content: center;
 }
 
 .myname {
@@ -22,10 +20,45 @@
 }
 
 .links {
-    height: 40px;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 0 20px;
     font-weight: lighter;
     font-size: x-large;
     display: flex;
     justify-content: flex-start;
+}
+
+.description {
+    height: 400px;
+    background-color: rgb(232, 232, 232);
+
+}
+
+.head {
+    padding: 50px 0 30px 20px;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.heading-one {
+    padding: 0 0 30px 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home-work {
+    padding: 20px 0 20px 20px;
+    color: slategray;
+    background-color: blanchedalmond;
+    text-align: center;
+    border: 2px solid slategray;
+    border-radius: 10px;
+    width: 220px;
+    margin: 40px 0 40px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-start; 
 }
