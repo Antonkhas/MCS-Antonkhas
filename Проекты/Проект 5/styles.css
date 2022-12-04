@@ -66,5 +66,51 @@ a:hover {
 }
 
 
+.container {
+    width: 1040px;
+    padding: 100px 0;
+    margin: 0 auto;   
+}
 
+.text {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #d93c3c;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+}
 
+ul, ol {
+    list-style: none;
+  }
+
+  .water {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.mini-water {
+
+    padding: 20px 10px 10px 50px;
+    text-align: left;
+    border: 2px solid #d93c3c;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.mini {
+    position: relative;
+    right: 20px;
+}
+.line-bottom > p {
+    padding: 20px;
+    font-weight: bold;
+    font-size: xx-large;  
+    background-color: #d93c3c;
+}
