@@ -46,14 +46,19 @@ a:hover {
 }
 
 .images-evain {
+    height: 950px;
+    margin-top: 70px;
     display: flex;
-    justify-content: space-around;
-    margin-top: 45px;
-}
+    justify-content: center;
+    align-items: center;
+  
+    background-image: url('images/evian.jpg');
+  
+  }
 
 
 .header-evain {
-    z-index: 1;
+
     position: absolute;
     top: 600x;
     right: 100px;
